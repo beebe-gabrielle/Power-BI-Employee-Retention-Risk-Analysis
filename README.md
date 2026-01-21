@@ -1,4 +1,4 @@
-# Power BI | Employee Attrition: Current Overview
+# Power BI | Employee Attrition Analysis
 
 ### Purpose
 
