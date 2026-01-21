@@ -1,160 +1,67 @@
-# Power BI - Employee Retention Risk Analysis
+# Project | Power BI - Employee Attrition Current Overview
 
-This organization is experiencing disproportionately high employee attrition among certain roles and early-tenure employees. The leadership team is aware of the overall attrition rates, but lack clarity on where the risk is concentrate and the underlying factors contributing to employee turnover. 
+### Purpose & Overview
 
-The objective of this project is to provide the leadership team with a clear and data driven understanding of attrition patterns across multiple variables. Understanding where attrttion occurs is the first step to understanding why it occurs. With this information, leadership can focus their efforts where improvements will be most impactful. 
+This project presents a descriptive overview of employee attrition patterns using a snapshot of the organization’s current workforce data. The purpose of the analysis is to summarize where attrition is occurring and how observed attrition rates vary across employee groups and demographics, providing a clear current-state view of workforce outcomes.
+
+The dashboard focuses on attrition rates across job roles, job levels, tenure, and satisfaction metrics, and includes distributional views of attrition volume by key demographic attributes such as gender, marital status, and education level.
+
+Together, these visualizations are intended to provide leadership and other stakeholders with a clear, data-driven understanding of observed attrition patterns, highlighting which segments of the workforce experience higher attrition rates and where employee exits are most concentrated. This analysis is designed to support exploratory insight and decision scoping, helping identify areas that may warrant further investigation or targeted follow-up.
 
 The data for this analysis is sourced from Kaggel via a public dataset: 
-<p></p>
+
 https://www.kaggle.com/datasets/shubham17mcb1015/hr-data
 
-## Slide 1 - Overview & Analysis
+### Dashboard
+
+<p></p> 
+
+<img width="909" height="504" alt="image" src="https://github.com/user-attachments/assets/7103dc8f-ee5b-4fde-9ef6-8cf28b1b0603" />
 
 <p></p>
 
-The purpose of Slide 1 is to quickly identify where employee retention challenges are most acute. Here, I establish the scope, scale, and distribution of attrition risk by developing KPI's and level-based views.
+### Analysis
 
-<img width="737" height="430" alt="image" src="https://github.com/user-attachments/assets/be41e937-8f00-4bf4-a590-606ee5c35a80" />
+#### Attrition Rates by Job Role and Job Level
 
+Attrition rates vary substancially across job roles and job levels. Sales Representatives experience the highest attrition rate of 40%, with Lab Techs and HR experiencing elevated rates as well. Attrition is highest at Job Level 1 (26.3%). The organization is experiencing a secondary peak at Job Level 3 (14.7%). Job Levels 4 and 5 show noticebly lower attriton rates, suggesting that career progression and seniority provide a stabilizing effect. This suggest that attrition is not evenly distributed across the organizational structure and is more pronounced in specific functions. 
 
-<p></p>
+#### Attrition Rate by Tenure 
 
-Slide 1 will assist in answering the following questions established by the leadership team:
-
-<p></p>
-
-*  How severe is the attrition problem overall?
-*  Is attrition concentrated early in employee tenure or evenly over time?
-*  What job roles and job levels experience the highest attrition rates?
-*  Are certain areas of the organization disproportionately affected?
-
-<p></p>
-
-#### Early Tenure Attrition is Primary Risk Area
-
-<p></p>
-
-The organization's overall attriton rate is 16.12%. While not crisis-level, it does indicate a meaningfull level of staff turnover. Deeper investigation reveals a significant concentration of attrition risk among early-tenure employees with nearly 34.88% of employees leaving within their first year. 
-
-<p></p>
-
-#### Attrition Varies Significantly by Job Role
-
-<p></p>
-
-From the visualizations, it is evident that Sales Representatives experience the highest attrition rates, close to 40%. Laboratory Technicians and Human Resource employees also show elevated attriton rates. Managerial and Director-level roles rates are substancially lower, indicating a significant correlation between attrition rate and job role. 
-
-#### Job Level Reveals Structural Risk Differences:
-
-<p></p>
-
-Attrition is highest at Job Level 1 (26.3%). The organization is experiencing a secondary peak at Job Level 3 (14.7%). Job Levels 4 and 5 show noticebly lower attriton rates, suggesting that career progression and seniority provide a stabilizing effect. 
-
-#### Average Tenure Reflects a Mixed Workforce
-
-<p></p>
-
-The average tenure of 6 years suggest a workforce composed of a core group of longer-tenured employees with a rotating population of newer hires. 
+Attrition is most pronounced during early tenure, with a significant concentration of 34.88% among first year employees. Attrition rates decline as tenure increases, indicating greater retention among longer-tenured employees. The average tenure of 7 years suggest this workforce is composed of longer-tenured employees with a rotating population of newer hires. 
 
 
-<p></p>
+#### Attrition Rates by Satisfaction Levels
 
-## Slide 1 - Key Takeaways
+Using small multiples, I compares attritiob rates across multiple satisfaction metrics while preserving the scale and interpretability of the visualization. Across all satisfaction dimensions (work-life balance, job satisfaction, job involvement, environmental satisfaction), lower levels are associated with higher observed attrition rates. This suggest that an employees experience is closely related to retention outcomes, most signifacantly regarding work-life balance and job involvement. 
 
-<p></p>
+#### Attrition Rates by Years Since Last Promotion 
 
-We can observe from Slide 1 that attrition within the organization is not evenly distributed and that risk is concentrated among:
+Attrition rates vary across years since last promotion, with increased rates during certain intervals.
 
-<p></p>
+#### Attrition Distribution by Demographics
+
+
+### Key Takeaways
+
+We can observe from the analysis that attrition within the organization is not evenly distributed and that risk is concentrated among:
+
 
 * Early-tenure employees
 * Entry-level roles
 * Specific roles including Sales, Lab Techs, and HR employees
 
-## Slide 1 - DAX Formulas
 
-<p></p>
-
-<img width="440" height="272" alt="image" src="https://github.com/user-attachments/assets/6b0dcbab-fbd8-450e-94c4-88046d3fd489" />
-
-
-<p></p>
- 
-<img width="440" height="272" alt="image" src="https://github.com/user-attachments/assets/0c738d44-7a7d-4234-8813-bf3a48a71580" />
-
-<p></p>
-
-<img width="440" height="272" alt="image" src="https://github.com/user-attachments/assets/4beed9fa-af74-4069-bf75-78362fde922a" />
-
-<p></p>
-
-## Slide 2 - Overview & Analysis
-
-<p></p>
-
-The purpose of Slide 2 is to identify why attrition occurs. Here we examine how employee experience, workload, and career progression relate to attrition risk. The goal is not to assign causation, but to identify consistent patterns that leadership can use in retention strategies. 
-
-<p></p>
-
-<img width="737" height="432" alt="image" src="https://github.com/user-attachments/assets/3773efdd-a969-4139-a9be-a085f1ff669f" />
-
-<p></p>
-
-#### Satisfaction & Engagement Scores Show Strong Correlation
-
-<p></p>
-
-Satisfaction dimensions 'Job Involvement' and 'Work-Life Balance' show a significant decline in attrition as scores increase. This suggest that these dimensions are especially influential retention signals. Attrition rates are consistently higher among employees who've responded with low scores for all satisfaction dimensions, reinforcing that an employees experience is closely related to retention outcomes.
-
-#### Overtime is a Clear Attrition Risk Indicatcor
-
-<p></p>
-
-Employees that work overtime have substancially higher attrition rates (30%) when compared to employees that do not (10%). This suggest that working overtime amplifies the risk of attrition, especially when combined with satisfaction and engagement stressors. 
-
-<p></p>
-
-#### Promotional Timing Correlates With Attrition Risk
-
-<p></p>
-
-The line chart shows that attrition rates rise as time since last promotion grows. Notably, rates spike when employees have gone several years without a promotion, particularly around the 6-7 year mark. This pattern suggest that career progression is an important factor that influences retention. 
-
-## Slide 2 - Key Takeaways
-
-<p></p>
-
-How employees experience their work at this organization is strongly associated with attriton. Drivers such as satisfaction levels, overtime status, and career progression, likely influence an employees decision to leave the organization. This, when combined with the analysis from Slide 1 help explain attrition rates 
-
-<p></p>
-
-## Slide 2 - DAX Formulas
-
-<p></p>
-
-<img width="440" height="272" alt="image" src="https://github.com/user-attachments/assets/5be4a2db-3d94-4dad-a0d3-ddecc82698b7" />
-
-<p></p>
-
-<img width="440" height="272" alt="image" src="https://github.com/user-attachments/assets/82652e59-f574-4cf8-a6f0-d80602beef9d" />
-
-<p></p>
-
-
-## 5. Recommendations & Conclusion
-
-<p></p>
+### Recommendations & Conclusion
 
 This analysis demonstrates that employee attrition within the organization is not random but instead follows clear patterns across job role, employee experience, workload, and career progression. I suggest the leadership team consider the following:
-
-<p></p>
 
 * Review onboarding processes and role expectations
 * Monitor and manage 'overtime status' to lower burnout in high-risk roles
 * Use satisfaction metrics to guide proactive retention discussions
 * Use time since last promotion as a risk flag 
 
-<p></p>
+### Other Projects: 
 
 
 
