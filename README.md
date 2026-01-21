@@ -1,6 +1,6 @@
-# Project | Power BI - Employee Attrition Current Overview
+# Power BI | Employee Attrition: Current Overview
 
-### Purpose & Overview
+### Purpose
 
 This project presents a descriptive overview of employee attrition patterns using a snapshot of the organization’s current workforce data. The purpose of the analysis is to summarize where attrition is occurring and how observed attrition rates vary across employee groups and demographics, providing a clear current-state view of workforce outcomes.
 
