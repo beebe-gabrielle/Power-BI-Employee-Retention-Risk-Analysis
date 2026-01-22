@@ -2,11 +2,9 @@
 
 ### Purpose / Business Problem
 
-This project presents a descriptive overview of employee attrition patterns using a snapshot of the organization’s current workforce data. The purpose of the analysis is to summarize where attrition is occurring and how observed attrition rates vary across employee groups and demographics, providing a clear current-state view of workforce outcomes.
+This project presents a descriptive overview of employee attrition patterns using a static snapshot of the organization’s  workforce data. The purpose of the analysis is to summarize where attrition is occurring and how observed attrition rates vary across employee groups and demographics.
 
-The dashboard focuses on attrition rates across job roles, job levels, tenure, and satisfaction metrics, and includes distributional views of attrition volume by key demographic attributes such as gender, marital status, and education level.
-
-Together, these visualizations are intended to provide leadership and other stakeholders with a clear, data-driven understanding of observed attrition patterns, highlighting which segments of the workforce experience higher attrition rates and where employee exits are most concentrated. This analysis is designed to support exploratory insight and decision scoping, helping identify areas that may warrant further investigation or targeted follow-up.
+The dashboard and analysis are intended to provide leadership and other stakeholders with a clear, data-driven understanding of observed attrition patterns, highlighting which segments of the workforce experience higher attrition rates and where employee exits are most concentrated. This analysis is designed to support exploratory insight and decision scoping, helping identify areas that may warrant further investigation or targeted follow-up. 
 
 The data for this analysis is sourced from Kaggel via a public dataset: 
 
